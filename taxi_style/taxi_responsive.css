@@ -1,0 +1,58 @@
+/* Media Queries */
+/* Media Query for Mobile View */
+@media (max-width: 575.98px) {
+  .card-form {
+    width: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .card-images {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .card-images img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    margin: 5px; /* Adjust margin for spacing */
+  }
+}
+
+/* Media Query for screens between 576px and 970px */
+@media (min-width: 576px) and (max-width: 970px) {
+  .card-form {
+    width: 40%;
+    left: 10%;
+    transform: translate(0, -50%);
+  }
+}
+
+/* General Media Queries */
+@media (min-width: 576px) {
+  .card-form {
+    width: 70%;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-form {
+    width: 60%;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-form {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-form {
+    width: 40%;
+  }
+}
+/* ... (other styles) ... */
